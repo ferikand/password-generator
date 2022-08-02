@@ -119,4 +119,15 @@ p {
 
   background: #273549;
   border-radius: 6px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+
+  color: #55f991;
 }
