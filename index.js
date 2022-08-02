@@ -97,6 +97,9 @@ let firstField = document.querySelector("#first-field");
 let secondField = document.querySelector("#second-field");
 
 function genPass() {
+  firstField.textContent = "";
+  secondField.textContent = "";
+
   for (let i = 0; i < 15; i++) {
     firstField.textContent +=
       characters[Math.floor(Math.random() * characters.length)];
